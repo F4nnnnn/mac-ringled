@@ -1,0 +1,10 @@
+{
+    "uuid": "mac-ringlight@satria.local",
+    "name": "Mac Ringlight",
+    "description": "A macOS-inspired rounded rectangular ringlight overlay for GNOME Shell with smooth preferences sliders, adjustable color temperature, bright glow, dock overlay, and a persistent top-panel indicator.",
+    "version": 17,
+    "shell-version": [
+        "50"
+    ],
+    "settings-schema": "org.gnome.shell.extensions.mac-ringlight"
+}

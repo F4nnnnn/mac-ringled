@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.mac-ringlight" path="/org/gnome/shell/extensions/mac-ringlight/">
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Enable the ringlight overlay</summary>
+    </key>
+    <key name="color-mode" type="s">
+      <default>'white'</default>
+      <summary>Ringlight color temperature</summary>
+      <description>Choose white, warm, or natural ringlight color.</description>
+    </key>
+    <key name="intensity" type="d">
+      <default>1.25</default>
+      <range min="0.35" max="1.5"/>
+      <summary>White ring intensity</summary>
+    </key>
+    <key name="thickness" type="d">
+      <default>0.072</default>
+      <range min="0.035" max="0.12"/>
+      <summary>Frame thickness as a fraction of the shorter screen side</summary>
+    </key>
+    <key name="glow" type="d">
+      <default>0.90</default>
+      <range min="0.0" max="1.0"/>
+      <summary>Outer glow strength</summary>
+    </key>
+    <key name="radius" type="d">
+      <default>0.18</default>
+      <range min="0.10" max="0.25"/>
+      <summary>Frame corner radius as a fraction of the shorter screen side</summary>
+    </key>
+    <key name="top-inset" type="d">
+      <default>0.035</default>
+      <range min="0.01" max="0.08"/>
+      <summary>Top inset as a fraction of screen height</summary>
+    </key>
+  </schema>
+</schemalist>
